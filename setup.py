@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': [ # describes the start point of our executable 
+            'talker = py_pubsub.publisher_member_func:main',
         ],
     },
 )
